@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/Inter-Regular.woff2");
+    font-weight: normal;
+}
+
+.app {
+    background-image: url("/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
