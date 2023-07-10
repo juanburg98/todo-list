@@ -11,23 +11,27 @@
 
 <body class="app">
   <header>
-    <h1 class="title">Todo List</h1>
+    <div class="elementCenter">
+      <h1 class="title">Todo List</h1>
+    </div>
   </header>
   <main>
-    <div>
+    <div class="elementCenter">
       <form>
-        <input class="inputTodo" type="text" placeholder="Add a new todo..." />
+        <input class="inputTodo simpleText" type="text" placeholder="Add a new todo..." />
       </form>
     </div>
-    <div>
-      <button class="btnStyle" id="btnSubmit">Add todo</button>
+    <div class="elementCenter">
+      <button class="btnStyle simpleText" id="btnSubmit">Add todo</button>
     </div>
   </main>
   <footer>
-    <p class="simpleText">Made with love</p>
-    <a href="http://" target="_blank" rel="noopener noreferrer">
-      <img src="/github.svg" alt="Github repo" width="25px">
-    </a>
+    <div class="contentFooter">
+      <p class="simpleText">Made with love ❤️</p>
+      <a href="https://github.com/juanburg98/todo-list" target="_blank" rel="noopener noreferrer">
+        <img src="/github.svg" alt="Github repo" width="25px">
+      </a>
+    </div>
   </footer>
   <script type="module" src="./src/main.js"></script>
 </body>

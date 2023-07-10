@@ -21,19 +21,37 @@
 
 .simpleText {
     font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: -0.5px;
     color: #FFFFFF;
 }
 
 .inputTodo {
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 40px;
+    padding-left: 10px;
     padding-right: 40px;
     border-radius: 10px;
     border: none;
     font-family: "Inter";
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
+    background-color: #2727276e;
+}
+
+.inputTodo::placeholder {
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 16px;
+}
+
+.inputTodo:focus {
+    outline: none;
+}
+
+.inputTodo:hover {
+    background-color: #313131b7;
 }
 
 .btnStyle {
@@ -44,5 +62,27 @@
     border-radius: 10px;
     border: none;
     font-family: "Inter";
-    font-size: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2727276e;
+    color: #FFFFFF;
+}
+
+.btnStyle:hover {
+    background-color: #313131b7;
+}
+
+.elementCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contentFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }

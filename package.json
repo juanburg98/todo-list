@@ -2,6 +2,7 @@
   "name": "jsprojects",
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@8.6.2",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
