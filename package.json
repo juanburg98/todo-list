@@ -1,5 +1,5 @@
 {
-  "name": "jsprojects",
+  "name": "todolist",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "eslint-config-standard": "^17.1.0",
     "vite": "^4.4.9"
   }
